@@ -28,7 +28,7 @@ IF you have any questions or concerns, please contact me @ tamas.palfi34@gmail.c
   - Training Data/Stanford Model:
      - **pandas** : to read the input CSV file
      - **sklearn** : 
-        -**model selection** - to get the train and test split
+          -**model selection** - to get the train and test split
         -**DictVectorizer** - convert dict from BoW to array for ML fitting
         -**linear_model.LogisticRegression** - to make OvR classifier
         -**metrics: roc_auc, f1_score** - analysis
