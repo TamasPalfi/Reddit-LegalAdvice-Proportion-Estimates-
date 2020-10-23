@@ -28,10 +28,10 @@ IF you have any questions or concerns, please contact me @ tamas.palfi34@gmail.c
   - Training Data/Stanford Model:
     - **pandas** : to read the input CSV file
     - **sklearn** : 
-       -**model selection** - to get the train and test split
-       -**DictVectorizer** - convert dict from BoW to array for ML fitting
-       -**linear_model.LogisticRegression** - to make OvR classifier
-       -**metrics: roc_auc, f1_score** - analysis
+      -**model selection** - to get the train and test split
+      -**DictVectorizer** - convert dict from BoW to array for ML fitting
+      -**linear_model.LogisticRegression** - to make OvR classifier
+      -**metrics: roc_auc, f1_score** - analysis
     - **nltk**: used for BoW - tokenize to get sentences for each post, and word_tokenize to get words for each sentence
     - **re**: to get rid of puncuation in BoW
     - **numpy**: used .mean to find class prior distribution and true prevalence of labels
